@@ -5,6 +5,7 @@
         Dim i As Integer
 
         sText = ZebraPrint.GetZPLutf8Code(TextBox1.Text) & vbCrLf & vbCrLf
+        sText = sText & "http://labelary.com/viewer.html" & vbCrLf & vbCrLf
         sText = sText & "^CWT,E:TT0003M_.FNT" & vbCrLf
         sText = sText & "^CFT,40,30" & vbCrLf
         sText = sText & "^CI28" & vbCrLf
