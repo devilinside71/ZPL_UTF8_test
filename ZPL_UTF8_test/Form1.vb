@@ -1,6 +1,19 @@
 ﻿Public Class Form1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        TextBox2.Text = ZebraPrint.GetZPLutf8Code(TextBox1.Text)
+        Dim sText As String
+        Dim array() As String
+        Dim i As Integer
+
+        sText = ZebraPrint.GetZPLutf8Code(TextBox1.Text) & vbCrLf & vbCrLf
+        sText = sText & "^CWT,E:TT0003M_.FNT" & vbCrLf
+        sText = sText & "^CFT,40,30" & vbCrLf
+        sText = sText & "^CI28" & vbCrLf
+
+        array = Split(TextBox1.Text, vbCrLf)
+        For i = LBound(array) To UBound(array)
+            sText = sText & "^FT10,90^FH^FD" & ZebraPrint.GetZPLutf8Code(array(i)) & "^FS" & vbCrLf
+        Next
+        TextBox2.Text = sText
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
