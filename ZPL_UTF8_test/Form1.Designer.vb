@@ -83,7 +83,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(670, 302)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "Form1"
-        Me.Text = "Zebre UTF8 converter"
+        Me.Text = "Zebra UTF8 converter"
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
