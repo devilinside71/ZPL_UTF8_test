@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resolutions>
+  <resolution name="203dpi">
+    <resdpmm>8dpmm</resdpmm>
+    <resdpmmvalue>8</resdpmmvalue>
+  </resolution>
+  <resolution name="300dpi">
+    <resdpmm>12dpmm</resdpmm>
+    <resdpmmvalue>12</resdpmmvalue>
+  </resolution>
+</resolutions>
