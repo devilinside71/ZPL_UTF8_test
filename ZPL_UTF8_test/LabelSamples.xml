@@ -102,12 +102,24 @@
       ^XZ
     </code>
   </label>
-  <label name="">
+  <label name="Készáru polc">
     <code>
     </code>
   </label>
-  <label name="">
+  <label name="Csomagolóanyag raktár">
     <code>
+      ^XA
+      ^LH10,40
+      ^FX Barcode Code128, Code39 is too wide
+      ^FT40,35^BY4^BCN,120,Y,N,N^FDVONALKOD^FS
+      ^FX UTF-8 font selection: in printer's E memory
+      ^CWT,E:TT0003M_.FNT
+      ^CFT,90,70
+      ^CI28
+      ^FX SZERSZAMMEGNEV
+      ^FT20,370^FH^FB700,3,0,C^FDSZERSZAMZPL^FS
+      ^PQLABELQTY
+      ^XZ
     </code>
   </label>
   <label name="">
