@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <printers>
-  <printer name="Z6Mplus oroszos">
-    <winname>Z6Mplus</winname>
+  <printer name="Marika GC420t ZPL">
+    <winname>GC420T</winname>
   </printer>
   <printer name="Alap S4M régi">
     <winname>S4M_regi</winname>
   </printer>
-  <printer name="Marika GC420t ZPL">
-    <winname>GC420T</winname>
+  <printer name="Z6Mplus oroszos">
+    <winname>Z6Mplus</winname>
   </printer>
   <printer name="Szerszám TLP 2824 ZPL">
     <winname>ZDesigner TLP 2824 Plus (ZPL)</winname>
