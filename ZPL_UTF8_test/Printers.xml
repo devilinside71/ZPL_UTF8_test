@@ -9,7 +9,10 @@
   <printer name="Z6Mplus oroszos">
     <winname>Z6Mplus</winname>
   </printer>
-  <printer name="Szerszám TLP 2824 ZPL">
-    <winname>ZDesigner TLP 2824 Plus (ZPL)</winname>
+  <printer name="SósT">
+    <winname>TLP2824A</winname>
+  </printer>
+  <printer name="SósT hálózatról">
+    <winname>\\SM-TSOS3.ad.sanatmetal.hu\TLP2824A</winname>
   </printer>  
 </printers> 
